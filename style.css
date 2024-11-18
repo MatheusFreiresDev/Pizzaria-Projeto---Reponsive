@@ -1,0 +1,623 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* NAV PRINCIPAL*/
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 50px;
+        background-color: #1C2331;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .menu a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2em; 
+        font-weight: bold;
+        transition: transform 0.3s ease; 
+    }
+    .menu a:hover{
+        color: #FFC107;
+        transition-duration: 1s;
+        border-bottom: 1px solid #FFC107;
+    }
+    
+.logo a {
+    color: #FFC107;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+/* Rodapé */
+footer {
+    background-color: #1C2331;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #FFC107;
+    text-decoration: none;
+}
+
+footer p{
+    color: white;
+}
+
+/*===============LOJAS====================*/
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Container principal */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table caption {
+    text-align: center;
+    font-weight: bold;
+    color: #1C2331;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #1C2331;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+td {
+    color: #333;
+}
+
+td.itens {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Títulos e descrições */
+.titulo-e-descricao-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#titulo-localizador {
+    color: #1C2331;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2.2em;
+    position: relative;
+}
+
+#titulo-localizador::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: #FFC107;
+    margin: 10px auto 0;
+}
+
+.unidades-container h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+/* Tabela de Unidades */
+.tabela-unidades-container {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+   
+    overflow: hidden;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #1C2331;
+    color: #FFFFFF;
+}
+
+th {
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    transition: background-color 0.3s ease;
+}
+
+tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Seções do Localizador e Ambiente */
+.localizador, .ambiente {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.localizador iframe {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ambiente img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*===============MAIN====================*/
+.titulo-e-descricao-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.titulo-e-descricao-container h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.titulo-e-descricao-container p {
+    font-size: 18px;
+    color: #555;
+}
+
+
+.tabela-unidades-container ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.tabela-unidades-container li {
+    background-color: white;
+    border: 1px solid #ddd;  
+    border-radius: 8px;
+    width: 230px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; 
+}
+
+
+.tabela-unidades-container li:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #f2f2f2;
+}
+
+.tabela-unidades-container h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 15px 0;
+}
+
+.tabela-unidades-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.tabela-unidades-container p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.tabela-unidades-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.tabela-unidades-container a:hover {
+    background-color: #555;
+}
+
+
+#sobre-nos {
+    text-align: center;
+    margin: 40px 0;
+    transition: transform 0.3s;
+    transition-duration: 1s;
+    transition-property: all;
+}
+
+#sobre-nos h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#sobre-nos p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+#sobre-nos strong {
+    font-weight: bold;
+}
+
+#sobre-nos img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+#sobre-nos img:hover{
+    transform: translateY(-10px);
+    transition-duration: 1s;
+}
+/*===============CARDAPIO====================*/
+.corpo {
+    font-family: sans-serif;
+    }
+    
+    .principal {
+        text-align: center;
+    }
+    
+    .principal h2, p {
+        color: black;
+    }
+    
+    .principal h2 {
+    font-size: 2.2em;
+    }
+    .principal p {
+        font-size: 20px;
+    }
+    
+    div.tabelacardapio table, th, td {
+        min-height: 290px;
+        border: 1px solid rgba(128, 128, 128, 0.5);
+        text-align: center;
+        border-collapse: collapse;
+        padding: 10px 15px;
+    }
+    
+    div.tabelacardapio td {
+        color: rgb(73, 72, 72);
+    }
+    
+    div.tabelacardapio table {
+        box-shadow: 10px 20px 20px grey;
+    }
+    .conteudo{
+        background-color: #1C2331;
+        color: white;
+    }
+    .itens:hover {
+        background-color: #f1f1f1;
+    }
+    
+    .imagenscapturas {
+        width: 400px;
+        height: 200px;
+        border-radius: 20px;
+    }
+    
+    .tabelacardapio h3 {
+        color: rgb(73, 72, 72);
+        font-size: 40px;
+    }
+    
+    .tabelacardapio caption {
+        font-size: 30px;
+        color: rgb(73, 72, 72);
+    }
+    
+    .tabelacardapio {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        align-items: start;
+        margin: auto;
+        gap: 50px;
+        max-width: 1000px;
+        
+    }
+    
+    @media (max-width: 700px) {
+        .tabelacardapio {
+            display: grid;
+            grid-template-columns: repeat(1, auto);
+        }
+      }
+
+/*===============PROMOÇÕES====================*/
+.promo_img {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 60px; /* Espaço entre as imagens */
+    flex-wrap: wrap; /* Permite que as imagens quebrem linha em telas menores */
+    padding: 20px;
+}
+
+.promo_img img {
+    width: 300px; 
+    height: auto;
+    object-fit: cover; 
+    border-radius: 5%;
+}
+
+.promo_title h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: black;
+    margin: 15px 0;
+}
+
+.promo_title p {
+    text-align: center;
+    font-size: 1.1em;
+    margin: 5px auto;
+    width: 80%;
+}
+
+.promo_dias table {
+    margin: auto;
+    margin-top: 30px;
+    width: 90%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.promo_dias thead {
+    background-color: #8B0000;
+    color: white;
+    height: 2.5em;
+    font-size: 1em;
+}
+
+.promo_dias tbody {
+    background-color: white;
+    font-size: 0.9em;
+}
+
+
+
+
+/*===============PEDIDOS====================*/
+.Pedido {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+.pedidos-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    margin-top: 20px;
+}
+
+fieldset {
+    border: 2px solid #1C2331;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+legend {
+    color: #1C2331;
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #1C2331;
+    outline: none;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 5px 0;
+}
+
+/* Checkboxes*/
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+p {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Botão de Envio */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #1C2331;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #1C2331;
+}
+
+/*===============RESPONSIVIDADE====================*/
+
+@media (max-width: 700px) {
+    .tabelacardapio {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+}
+
+@media (max-width: 600px) {
+    section {
+        padding: 15px;
+    }
+
+    .header {
+        width: 100vw;
+    } 
+    .tabelacardapio {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+    .promo_img {
+        justify-content: space-evenly;
+        gap: 20px; /* Menos espaçamento entre as imagens */
+    }
+
+    .promo_img img {
+        width: 250px; /* Ajustei o tamanho das imagens para telas pequenas */
+    }
+    .tabela {
+        width: 100%;
+        display: block; /* Torna a tabela um bloco para permitir o scroll */
+        overflow-x: auto; /* Ativa o scroll horizontal */
+        -webkit-overflow-scrolling: touch; /* Melhora a rolagem em dispositivos móveis */
+        white-space: nowrap; /* Impede a quebra de linha dentro das células da tabela */
+    }
+    .tabelacardapio h3 {
+        font-size: 25px; /* Reduzi o tamanho da fonte para telas menores */
+    }
+    .tabelacardapio caption {
+        font-size: 24px;
+    }
+
+    .Pedido {
+        width: 90%; /* Reduzi o tamanho do formulário */
+    }
+
+    .logo a {
+        font-size: 1.2em; /* Ajuste no tamanho da logo para telas pequenas */
+    }
+
+    .menu {
+        flex-direction: column; /* Menu em formato de coluna */
+        align-items: center;
+    }
+
+    .menu li {
+        margin-left: 0; /* Removendo a margem esquerda */
+        margin-bottom: 10px; /* Adicionando margem inferior para espaçamento */
+    }
+
+    .menu li a {
+        font-size: 1.2em; /* Ajuste na fonte para telas menores */
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    footer p {
+        font-size: 1em; /* Ajuste na fonte do rodapé para dispositivos móveis */
+    }
+
+    .imagenscapturas {
+        width: 100%; /* Ajuste na largura das imagens para telas pequenas */
+    }
+
+    .tabela-unidades-container li {
+        width: 100%; /* Ajuste para exibir itens em tela cheia */
+    }
+}
