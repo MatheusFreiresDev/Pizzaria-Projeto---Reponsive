@@ -17,9 +17,9 @@ João Oliveira - Ajudou no ínicio com orientação, e fez a Tag NAV.
 
 Indice do css para ficar melhor de avaliar.
 
-Lojas - Linha 56;
-Main - Linha 200;
-Cardapio - Linha 314;
-Promoções - Linhas 390;
-Pedidos - Linha 443;
-Responsividade - Linha 538;
+Lojas - Linha 81;
+Main - Linha 213;
+Cardapio - Linha 364;
+Promoções - Linhas 440;
+Pedidos - Linha 492;
+Responsividade - Linha 587;
