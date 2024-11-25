@@ -1,4 +1,10 @@
-
+============================= Observações =============================
+Turma: FSN1
+Professores: Gabriel Bezerra, Fernanda Nascimento. 
+Curso : Fullstack
+Escolhemos o modelo 3 (Pizzaria).
+Fizemos algumas alterações mínimas no HTML.
+Decidimos que cada um faria uma página, e depois juntaríamos tudo (pobre do Matheus).
 ========================== Participantes ==========================
 
 Paulo Ricardo Celestino de Lima - Cardápio
@@ -6,12 +12,6 @@ Matheus Freires Pereira - Localizador, HomePage, Organização do Código
 Kaio Alves de Albuquerque - Pedidos
 Guilherme Severino Holanda - Promoções
 João Oliveira - Ajudou no início com orientação e fez a tag NAV.
-
-============================= Observações =============================
-
-Escolhemos o modelo 3 (Pizzaria).
-Fizemos algumas alterações mínimas no HTML.
-Decidimos que cada um faria uma página, e depois juntaríamos tudo (pobre do Matheus).
 ============================ Índice ============================
 
 Índice do CSS para facilitar a avaliação:
