@@ -434,7 +434,9 @@ tbody tr:hover {
         .tabelacardapio {
             display: grid;
             grid-template-rows: repeat(1, auto);
-        }
+        }   
+
+
       }
 
 /*===============PROMOÇÕES====================*/
